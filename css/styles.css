@@ -1,5 +1,6 @@
 body {
   background-color: #e5e5e5;
+  margin: 0;
 }
 header {
   background-color: red;
@@ -36,15 +37,18 @@ h1 {
 }
 .row-menu-de-conteudo {
   display: flex;
-  justify-content: space-around;
+  
   overflow-x: scroll;
   padding: 17px 0px 27px 0px;
+  scrollbar-width: none;
+ 
 }
 
 .menu-cardapio {
   width: 100%;
   padding-top: 27px;
   font-family: "Roboto", sans-serif;
+  
 }
 .menu-cardapio h1 {
   font-size: 26px;
@@ -80,5 +84,5 @@ h1 {
 .card-menu-cardapio img {
   height: 87px;
   width: 144px;
-  padding-left: 12px;
+ 
 }
