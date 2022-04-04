@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta class="checkbox-hidden" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      class="checkbox-hidden"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>DrivenEats</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -13,8 +17,14 @@
       href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
       rel="stylesheet"
     />
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,198 +33,197 @@
     />
   </head>
   <body>
-    <!-- COMEÇO HEADER-->
+    <!-- === COMEÇO HEADER === -->
     <header>
       <div class="appBar">
         <h1>DrivenEats</h1>
         <p>Sua comida em 6 minutos</p>
       </div>
     </header>
-    <!-- FIM HEADER-->
-    <div class="margin-personalizada"></div>
-    <!--=========== INICIO PRATO  ==========-->
-    <div class="menu-cardapio">
-      <h1>Primeiro, seu prato</h1>
-      <div class="row-menu-de-conteudo prato">
-        <!-- INICIO CARD 1-->
-        <div class="card-menu-cardapio" onclick="selecionarPrato(this)">
-          <img src="img/bifecomfritas-removebg-preview.png" alt="" />
-          <h2>Bife com fritas</h2>
-          <p class="description">Dois bifes, batata e salada.</p>
-        <div class="row-tarifa-check">
-            <p class="tarifa">R$ 12,90</p>
-            <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
-                   </div>
-        </div>
-        <!-- FIM CARD 1-->
-        <!-- INICIO CARD 1-->
-        <div class="card-menu-cardapio" onclick="selecionarPrato(this)">
-          <img src="img/lombo.suino-removebg-preview.png" alt="" />
-          <h2>Filé signon suíno</h2>
-          <p class="description">Filé, batatas coradas e tomate.</p>
-          <div class="row-tarifa-check">
-            <p class="tarifa">R$ 12,90</p>
-            <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
-                   </div>
-        </div>
-        <!-- FIM CARD 1-->
-        <!-- INICIO CARD 1-->
-        <div class="card-menu-cardapio" onclick="selecionarPrato(this)">
-          <img src="img/bifecomfritas-removebg-preview.png" alt="" />
-          <h2>Bife com fritas</h2>
-          <p class="description">Dois bifes, batata e salada.</p>
-        <div class="row-tarifa-check">
-            <p class="tarifa">R$ 12,90</p>
-            <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
-                   </div>
-        </div>
-        <!-- FIM CARD 1-->
-        <!-- INICIO CARD 1-->
-        <div class="card-menu-cardapio" onclick="selecionarPrato(this)">
-          <img src="img/bifecomfritas-removebg-preview.png" alt="" />
-          <h2>Bife com fritas</h2>
-          <p class="description">Dois bifes, batata e salada.</p>
-        <div class="row-tarifa-check">
-            <p class="tarifa">R$ 12,90</p>
-            <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
-                   </div>
-        </div>
-      </div>
-    </div>
-    <!--=========== FIM PRATO  ==========-->
-    <!--=========== INICIO BEBIDAS  ==========-->
-    <div class="menu-cardapio">
-      <h1>Agora, sua bebida</h1>
-      <div class="row-menu-de-conteudo bebida">
-        <!-- INICIO CARD 1-->
-        <div
-          class="card-menu-cardapio"
-          onclick="selecionarBebidas(this)"
-        >
-          <img src="img/coquinha.jpg" alt="" />
-          <h2>Coquinha gelada</h2>
-          <p class="description">375ml</p>
-          <div class="row-tarifa-check">
-            <p class="tarifa">R$ 12,90</p>
-            <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
-                   </div>
-        </div>
-        <!-- FIM CARD 1-->
-        <!-- INICIO CARD 1-->
-        <div
-          class="card-menu-cardapio"
-          onclick="selecionarBebidas(this)"
-        >
-          <img src="img/coquinha.jpg" alt="" />
-          <h2>Coca gelada</h2>
-          <p class="description">500ml</p>
-          <div class="row-tarifa-check">
-            <p class="tarifa">R$ 12,90</p>
-            <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
-                   </div>
-        </div>
-        <!-- FIM CARD 1-->
-        <!-- INICIO CARD 1-->
-        <div
-          class="card-menu-cardapio "
-          onclick="selecionarBebidas(this)"
-        >
-          <img src="img/coquinha.jpg" alt="" />
-          <h2>Cocona gelada</h2>
-          <p class="description">2L</p>
-          <div class="row-tarifa-check">
-            <p class="tarifa">R$ 12,90</p>
-            <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
-                   </div>
-        </div>
-        <!-- FIM CARD 1-->
-        <!-- INICIO CARD 1-->
-        <div
-          class="card-menu-cardapio"
-          onclick="selecionarBebidas(this)"
-        >
-          <img src="img/bifecomfritas-removebg-preview.png" alt="" />
-          <h2>Bife com fritas</h2>
-          <p class="description">Dois bifes, batata e salada.</p>
-        <div class="row-tarifa-check">
-            <p class="tarifa">R$ 12,90</p>
-            <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
-                   </div>
-        </div>
-        <!-- FIM CARD 1-->
-      </div>
-    </div>
-    <!--=========== FIM BEBIDAS  ==========-->
-    <!--=========== INICIO SOBREMESA  ==========-->
-    <div class="menu-cardapio">
-      <h1>Por fim, sua sobremesa</h1>
-      <div class="row-menu-de-conteudo sobremesa">
-        <!-- INICIO CARD 1-->
-        <div
-          class="card-menu-cardapio "
-          onclick="selecionarSobremesa(this)"
-        >
-          <img src="img/bifecomfritas-removebg-preview.png" alt="" />
-          <h2>Bife com fritas</h2>
-          <p class="description">Dois bifes, batata e salada.</p>
-          <div class="row-tarifa-check">
-           <p class="tarifa">R$ 12,90</p>
-            <ion-icon  class="checkbox" name="checkmark-circle"></ion-icon>
-            </div>
-          
-        </div>
-        <!-- FIM CARD 1-->
-        <!-- INICIO CARD 1-->
-        <div
-          class="card-menu-cardapio "
-          onclick="selecionarSobremesa(this)"
-        >
-          <img src="img/bifecomfritas-removebg-preview.png" alt="" />
-          <h2>Bife com fritas</h2>
-          <p class="description">Dois bifes, batata e salada.</p>
-        <div class="row-tarifa-check">
-            <p class="tarifa">R$ 12,90</p>
-            <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
-                   </div>
-        </div>
-        <!-- FIM CARD 1-->
-        <!-- INICIO CARD 1-->
-        <div
-          class="card-menu-cardapio "
-          onclick="selecionarSobremesa(this)"
-        >
-          <img src="img/bifecomfritas-removebg-preview.png" alt="" />
-          <h2>Bife com fritas</h2>
-          <p class="description">Dois bifes, batata e salada.</p>
-        <div class="row-tarifa-check">
-            <p class="tarifa">R$ 12,90</p>
-            <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
-                   </div>
-        </div>
-        <!-- FIM CARD 1-->
-        <!-- INICIO CARD 1-->
-        <divs
-          class="card-menu-cardapio "
-          onclick="selecionarSobremesa(this)"
-        >
-          <img src="img/bifecomfritas-removebg-preview.png" alt="" />
-          <h2>Bife com fritas</h2>
-          <p class="description">Dois bifes, batata e salada.</p>
-        <div class="row-tarifa-check">
-            <p class="tarifa">R$ 12,90</p>
-            <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
-                   </div>
-        </div>
-        <!-- FIM CARD 1-->
-      </div>
-    </div>
-    <!--=========== FIM SOBREMESA  ==========-->
-    <div class="margin-personalizada"></div>
+    <!-- === FIM HEADER === -->
 
-    <div class="container-bottom">
-      <button class="select-3-button">
-        <p>Selecione os 3 itens para fechar o pedido</p>
-      </button>
+    <!-- === COMEÇO MAIN === -->
+    <main>
+      <div class="margin-personalizada"></div>
+      <!--=========== === INICIO PRATO  ===  ==========-->
+      <div class="menu-cardapio">
+        <h1>Primeiro, seu prato</h1>
+        <div class="row-menu-de-conteudo prato">
+          <!-- === INICIO CARD  === -->
+          <div class="card-menu-cardapio" onclick="selecionarPrato(this)">
+            <img src="img/bifecomfritas-removebg-preview.png" alt="" />
+            <h2>Bife com fritas</h2>
+            <p class="description">Dois bifes, batata e salada.</p>
+            <div class="row-tarifa-check">
+              <div class="tarifa">
+                <p class="valor">12,40</p>
+              </div>
+              <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <!-- === FIM CARD  === -->
+          <!-- === INICIO CARD  === -->
+          <div class="card-menu-cardapio" onclick="selecionarPrato(this)">
+            <img src="img/lombo.suino-removebg-preview.png" alt="" />
+            <h2>Filé signon suíno</h2>
+            <p class="description">Filé, batatas coradas e tomate.</p>
+            <div class="row-tarifa-check">
+              <div class="tarifa">
+                <p class="valor">17,20</p>
+              </div>
+              <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <!-- === FIM CARD  === -->
+          <!-- === INICIO CARD  === -->
+          <div class="card-menu-cardapio" onclick="selecionarPrato(this)">
+            <img src="img/yang.png" alt="" />
+            <h2>Bife com fritas</h2>
+            <p class="description">Dois bifes, batata e salada.</p>
+            <div class="row-tarifa-check">
+              <div class="tarifa">
+                <p class="valor">17,40</p>
+              </div>
+              <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <!-- === FIM CARD  === -->
+          <!-- === INICIO CARD  === -->
+        </div>
+      </div>
+      <!--=========== === FIM PRATO  ===  ==========-->
+      <!--=========== === INICIO BEBIDA === S  ==========-->
+      <div class="menu-cardapio">
+        <h1>Agora, sua bebida</h1>
+        <div class="row-menu-de-conteudo bebida">
+          <!-- === INICIO CARD  === -->
+          <div class="card-menu-cardapio" onclick="selecionarBebidas(this)">
+            <img src="img/coca.png" alt="" />
+            <h2>Coquinha gelada</h2>
+            <p class="description">375ml</p>
+            <div class="row-tarifa-check">
+              <div class="tarifa">
+                <p class="valor">12,40</p>
+              </div>
+              <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <!-- === FIM CARD  === -->
+          <!-- === INICIO CARD  === -->
+          <div class="card-menu-cardapio" onclick="selecionarBebidas(this)">
+            <img src="img/coca.png" alt="" />
+            <h2>Coca gelada</h2>
+            <p class="description">500ml</p>
+            <div class="row-tarifa-check">
+              <div class="tarifa">
+                <p class="valor">12,40</p>
+              </div>
+              <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <!-- === FIM CARD  === -->
+          <!-- === INICIO CARD  === -->
+          <div class="card-menu-cardapio" onclick="selecionarBebidas(this)">
+            <img src="img/coca.png" alt="" />
+            <h2>Cocona gelada</h2>
+            <p class="description">2L</p>
+            <div class="row-tarifa-check">
+              <div class="tarifa">
+                <p class="valor">12,40</p>
+              </div>
+              <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <!-- === FIM CARD  === -->
+        </div>
+      </div>
+      <!--=========== === FIM BEBIDA === S  ==========-->
+      <!--=========== === INICIO SOBREM === ESA  ==========-->
+      <div class="menu-cardapio">
+        <h1>Por fim, sua sobremesa</h1>
+        <div class="row-menu-de-conteudo sobremesa">
+          <!-- === INICIO CARD  === -->
+          <div class="card-menu-cardapio" onclick="selecionarSobremesa(this)">
+            <img src="img/pudim.png" alt="" />
+            <h2>pudim pequeno</h2>
+            <p class="description">Dois bifes, batata e salada.</p>
+            <div class="row-tarifa-check">
+              <div class="tarifa">
+                <p class="valor">2,40</p>
+              </div>
+              <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <!-- === FIM CARD  === -->
+          <!-- === INICIO CARD  === -->
+          <div class="card-menu-cardapio" onclick="selecionarSobremesa(this)">
+            <img src="img/pudim.png" alt="" />
+            <h2>pudim médio</h2>
+            <p class="description">Dois bifes, batata e salada.</p>
+            <div class="row-tarifa-check">
+              <div class="tarifa">
+                <p class="valor">5,50</p>
+              </div>
+              <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <!-- === FIM CARD  === -->
+          <!-- === INICIO CARD  === -->
+          <div class="card-menu-cardapio" onclick="selecionarSobremesa(this)">
+            <img src="img/pudim.png" alt="" />
+            <h2>pudim grande</h2>
+            <p class="description">Dois bifes, batata e salada.</p>
+            <div class="row-tarifa-check">
+              <div class="tarifa">
+                <p class="valor">12,40</p>
+              </div>
+              <ion-icon class="checkbox" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <!-- === FIM CARD  === -->
+        </div>
+      </div>
+      <!--=== FIM SOBREMESA  ===-->
+      <div class="margin-personalizada"></div>
+    </main>
+    <!--=== FIM MAIN ===-->
+
+    <!-- === COMEÇO FOOTER ===-->
+    <footer>
+      <div class="container-bottom">
+        <button class="select-3-button" onclick="mostrarFundo()">
+          <p>Selecione os 3 itens para fechar o pedido</p>
+        </button>
+      </div>
+    </footer>
+    <!-- === FIM FOOTER === -->
+
+    <div class="fundo no-visibility">
+      <div class="pop-up-confirmar">
+        <p class="title-confirmar"><strong>Confirme seu pedido</strong></p>
+        <div class="items-prato">
+          <p>Frango Yin Yang</p>
+          <p class="precoPrato">14.90</p>
+        </div>
+        <div class="items-bebida">
+          <p>Coca</p>
+          <p class="precoBebida">4.50</p>
+        </div>
+        <div class="items-sobremesa">
+          <p>Pudim</p>
+          <p class="precoSobremesa">7.90</p>
+        </div>
+        <div class="items-total">
+          <p>TOTAL</p>
+          <p class="precoTotal">27.30</p>
+        </div>
+        <div class="botoes-pop-up-confirmar">
+          <div class="botao-sim" onclick="whatsappPedido()">
+            Tudo certo, pode pedir!
+          </div>
+          <div class="cancelar" onclick="cancelar()">Cancelar</div>
+        </div>
+      </div>
     </div>
 
     <script src="scripts.js"></script>
